@@ -1,6 +1,6 @@
-<h1> Kostiantyn Kornienko <h1>
+# Kostiantyn Kornienko
 
-# Contacts <h2>
+## Contacts
 ### Phone: +38 098 45 60 496 <h3>
 ### E-mail: kornienkokostia@gmail.com <h3>
 ### Telegram: @Kostya_Kornienko <h3><br>
