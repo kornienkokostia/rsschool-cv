@@ -18,3 +18,18 @@
 * #### Python 
 
 <br>
+
+## Code example
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+let res = sum(1, 2);
+alert(res);
+```
+<br>
+
+## Experience
+
+<br>
