@@ -33,3 +33,11 @@ alert(res);
 ## Experience
 
 <br>
+
+## Education
+* ### University: Donetsk National University, Computer Science major 
+
+<br>
+
+## English
+* ### B1 (Intermediate)
