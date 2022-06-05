@@ -8,7 +8,7 @@
 <br>
 
 ## About me
-#### I’m a second-year student at DonNU. I'm really passionate about web development and especially front-end. I've already tried Epam front-end course, but didn't pass an interview to third stage because of lack of knowledge in JS. So I've decided to try again in another course in Rs School this time. I hope my diligence and the courses will help me to obtain useful knowledge to find my first job and get an experience in web development.
+#### I’m a second-year student at DonNU. I'm really passionate about web development and especially front-end. I've already tried Epam front-end course, but didn't pass an interview to third stage because of lack of knowledge in JS. So I've decided to try again in another course in Rs School this time. I hope my diligence and this course will help me to obtain useful knowledge to find my first job and get an experience in web development.
 
 <br>
 
