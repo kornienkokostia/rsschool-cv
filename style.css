@@ -138,7 +138,6 @@ a:hover::after {
 .site-nav__link:hover span {
   transform: translate3d(-200%, 0, 0);
 }
-
 /* end of animation */
 
 .main{
