@@ -176,7 +176,7 @@ a:hover::after {
     border-left: var(--border);
     height: 100%;
     z-index: 1;
-    width: 7.3%;
+    width: 7.2%;
 }
 .icon{
     display: flex;
@@ -196,7 +196,7 @@ a:hover::after {
     padding-bottom: 50px;
 }
 .icon a{
-    background-position: 15.5px center;
+    background-position: 15.7px center;
     background-repeat: no-repeat;
     background-size: 18px;
     padding: 25px;
@@ -206,7 +206,6 @@ a:hover::after {
 }
 .icon1{
     background-image: url(./img/instagram_black.svg);
-    
 }
 .icon1:hover{
     background-image: url(./img/instagram_green.svg);
@@ -214,7 +213,6 @@ a:hover::after {
 
 .icon2{
     background-image: url(./img/facebook_black.svg);
-    
 }
 .icon2:hover{
     background-image: url(./img/facebook-green.svg);
@@ -222,7 +220,6 @@ a:hover::after {
 
 .icon3{
     background-image: url(./img/telegram-black.svg);
-    
 }
 .icon3:hover{
     background-image: url(./img/telegram-green.svg);
@@ -412,29 +409,58 @@ a:hover::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 85vh;
+    height: 100vh;
     border-bottom: var(--border);
     padding-left: 7%;
     padding-right: 7%;
 }
 .projects-title{
     font-size: 3em;
+    
 }
 .projects-subtitle{
     font-weight: 600;
     font-size: var(--subtitle-font-size);
     color: var(--subtitle-color);
     line-height: 2em;
-}
-.projects-bio{
-    color: var(--main-text-color);
-    font-size: 0.9em;
-    padding-top: 40px;
     padding-bottom: 60px;
 }
 
-.link-four{
-    margin-bottom: -60px;
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projects-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.project-img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    transition: .3s;
+    
+}
+.project-img:hover{
+   transform: scale(1.4);
+   color: var(--subtitle-color);    
+}
+
+.project-name{
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-top: 25px;
+    transition: .3s;
+}
+
+.project:hover ~ .project-name {
+    color: var(--subtitle-color);
 }
 
 /*languages section*/
@@ -442,7 +468,7 @@ a:hover::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 120vh;
+    height: 122vh;
     border-bottom: var(--border);
     padding-left: 7%;
     padding-right: 7%;
@@ -507,7 +533,7 @@ a:hover::after {
 }
 .education-title{
     font-size: 3em;
-    margin-top: 2.5%;
+    margin-top: 2%;
 }
 .education-subtitle{
     font-weight: 600;
@@ -687,6 +713,7 @@ a:hover::after {
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: center center;
+    transition: 0.3s;
 }
 .rs-logo:hover{
     background-image: url(./img/rs-school-green.svg);
