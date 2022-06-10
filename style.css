@@ -27,6 +27,7 @@ body {
     color: var(--headings-text-color);
 }
 
+/* styles for scrollbar*/
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -43,12 +44,53 @@ body {
 h1{
     font-size: 3.5em;
 }
+/* end of styles for scrollbar*/
+
+@media (max-width: 1013px) {
+    body .header{
+        padding-top: 0px;
+    }
+    .header .header-nav{
+        border-radius: 0px;
+        width: 100%;
+        height: 80px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 30px;
+    }
+    .header-nav-menu{
+        display: none;
+    }
+   
+    .menu-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 62px;
+        height: 62px;
+        border: 1px solid var(--border-color);
+        border-radius: 50%;
+    }
+    .menu-btn span{
+        width: 22px;
+        height: 2px;
+        margin: 3px;
+        background-color: var(--headings-text-color);
+    }
+    .menu-btn span:nth-of-type(2){
+        width: 12px;
+    }
+
+}
+
 
 /* style for header*/
 .header{
     position: fixed;
-    width: 92%;
-    padding-left: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     padding-top: 40px;
     z-index: 2;
     transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
@@ -59,10 +101,13 @@ h1{
     align-items: center;
     justify-content: space-between;
     background-color: var(--body-color);
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
     height: 80px;
     border-radius: 50px;
     padding-left: 15px;
-    padding-right: 25px;
+    padding-right: 30px;
     box-shadow: 0px 0px 35px -7px rgba(34, 60, 80, 0.2);
     transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
 }
@@ -132,13 +177,55 @@ a:hover::after {
 
 .site-nav__link span {
   display: inline-block;
-  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: .3s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
 .site-nav__link:hover span {
   transform: translate3d(-200%, 0, 0);
 }
 /* end of animation */
+
+@media (max-width: 1013px) {
+    body .main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    body .section1{
+        position: relative;
+        background-image: url(./img/background-2.jpg);
+        background-size: cover;
+        background-position: center 25%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+        
+    }
+    body .section2{
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+        height: 100vh;
+        padding-top: 0%;
+        margin-top: -17.5vh;
+    }
+    body .section2__top{
+        display: none;
+        
+    }
+    
+    body .section3{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        left: 92.7%;
+        border-left: var(--border);
+        height: 100%;
+        z-index: 1;
+        width: 7.2%;
+    }
+}    
 
 .main{
     display: flex;
@@ -552,7 +639,6 @@ a:hover::after {
 .education-place{
     display: flex;
     flex-direction: column;
-    
 }
 .education-header{
     display: flex;
