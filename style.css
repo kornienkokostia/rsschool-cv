@@ -60,11 +60,11 @@ h1{
         padding-left: 30px;
     }
     .header-nav-menu{
-        display: none;
+        display: flex;
     }
    
     .menu-btn{
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -208,7 +208,7 @@ a:hover::after {
         margin-left: 0%;
         height: 100vh;
         padding-top: 0%;
-        margin-top: -17.5vh;
+        margin-top: -100vh;
     }
     body .section2__top{
         display: none;
@@ -226,6 +226,23 @@ a:hover::after {
         z-index: 1;
         width: 7.2%;
     }
+}    
+
+@media (min-width: 1281px) {
+    body .section1{
+        background-image: url(./img/background.jpg);
+        background-size: cover;
+        background-position: center 0vh;
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 100%;
+    }
+    body .section2{
+        width: 47.7%;
+        margin-left: 45%;
+        
+    }
+    
 }    
 
 .main{
@@ -313,6 +330,23 @@ a:hover::after {
     background-image: url(./img/telegram-green.svg);
 }
 
+@media (max-width: 1013px) {
+    .section2 .section-home{
+        height: 85vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 89.8vh;
+    }
+    .section2 .home-button {
+       
+    }    
+    .section-home .link-one{
+        
+        
+    }
+}    
+
+
 /* home section*/
 .section-home{
     display: flex;
@@ -388,12 +422,28 @@ a:hover::after {
 }
 /* end of animation */
 
-/*
+
 .link-to-menu{
     height: 1px;
     background-color: #262728;
 }
-*/
+
+
+
+@media (max-width: 1013px) {
+    .section2 .section-about{
+        height: 90vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        
+    }
+    .section2 .about-title{
+        padding-top: 17vh;
+    }
+    .section2 .link-two{
+        margin-top: 17vh;
+    }
+}    
 
 /* about section */
 .section-about{
@@ -421,6 +471,20 @@ a:hover::after {
     font-size: 0.9em;
     padding-top: 50px;
 }
+
+@media (max-width: 1013px) {
+    .section2 .section-skills{
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-bottom: 5vh;
+    }
+    .section2 .skills-title{
+        padding-top: 7vh;
+    }
+    .section2 .link-three{
+        margin-top: 7vh;
+    }
+}    
 
 /* skills section */
 .section-skills{
@@ -492,6 +556,24 @@ a:hover::after {
     margin-bottom: 70px;
 }
 
+@media (max-width: 1013px) {
+    .section2 .section-projects{
+        height: 100vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-bottom: 2vh;
+    }
+    .section2 .project{
+        width: 80%;
+    }
+    .section2 .projects-title{
+        padding-top: 7vh;
+    }
+    .section2 .link-four{
+        margin-top: 7vh;
+    }
+}   
+
 /* projects section */
 .section-projects{
     display: flex;
@@ -551,6 +633,21 @@ a:hover::after {
     color: var(--subtitle-color);
 }
 
+@media (max-width: 1013px) {
+    .section2 .section-languages{
+        height: 115vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-bottom: 2vh;
+    }
+    .section2 .languages-title{
+        padding-top: 7vh;
+    }
+    .section2 .link-five{
+        margin-top: 7vh;
+    }
+}  
+
 /*languages section*/
 .section-languages{
     display: flex;
@@ -608,6 +705,21 @@ a:hover::after {
 .grey{
     background-color: #e0e1e2;
 }
+
+@media (max-width: 1013px) {
+    .section2 .section-education{
+        height: 90vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-bottom: 2vh;
+    }
+    .section2 .education-title{
+        padding-top: 8vh;
+    }
+    .section2 .link-six{
+        margin-top: 8vh;
+    }
+}   
 
 /* education section */
 .section-education{
@@ -667,6 +779,24 @@ a:hover::after {
     
 }
 
+@media (max-width: 1013px) {
+    .section2 .section-code{
+        height: 90vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+       
+    }
+    .section2 .code-blcok{
+        width: 60%;
+    }
+    .section2 .code-title{
+        padding-top: 10vh;
+    }
+    .section2 .link-seven{
+        margin-top: 10vh;
+    }
+}   
+
 /* code section */
 .section-code{
     display: flex;
@@ -718,6 +848,17 @@ a:hover::after {
 .c_light-pink{
     color: #bc89bd;
 }
+
+@media (max-width: 1013px) {
+    .section2 .section-contacts{
+        height: 90vh;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        
+    }
+    
+    
+}  
 
 /* contacts section */
 .section-contacts{
