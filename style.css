@@ -416,12 +416,12 @@ a:hover::after {
 }
 /* end of animation */
 
-
+/*
 .link-to-menu{
     height: 1px;
     background-color: #262728;
 }
-
+*/
 
 
 @media (max-width: 1013px) {
