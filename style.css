@@ -41,6 +41,7 @@ body {
     background: #ddd;
 }
 
+
 h1{
     font-size: 3.5em;
 }
@@ -853,7 +854,24 @@ a:hover::after {
     
     
 }  
-
+@media (max-width: 1200px) {
+    .section-contacts .contacts-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-contacts .cont__1{
+        margin-left: 0px;
+    }
+    .section-contacts .cont__2{
+        margin-left: 0px;
+    }
+    .section-contacts .contacts-col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        line-height: 2em;
+    }
+}
 /* contacts section */
 .section-contacts{
     display: flex;
